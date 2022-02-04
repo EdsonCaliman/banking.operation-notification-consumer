@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Consoles", "01 - Consoles", "{B6A9FE41-ECB7-4892-AEED-0E95B267D0A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{A16AE4DE-9C31-47B1-9EB1-801D2F5C027B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{76FF82BC-D3FF-4A3E-AA1A-45E0E5A47056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Tests", "04 - Tests", "{403C84FB-B3B2-488F-8EAA-422C18AF90AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banking.Operation.Notification.Consumer.Domain", "Banking.Operation.Notification.Consumer.Domain\Banking.Operation.Notification.Consumer.Domain.csproj", "{5C0E50F9-6336-42DD-86D3-760F1EFBC572}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banking.Operation.Notification.Consumer.CrossCutting.Ioc", "Banking.Operation.Notification.Consumer.CrossCutting.Ioc\Banking.Operation.Notification.Consumer.CrossCutting.Ioc.csproj", "{D22B4030-C190-46B7-B883-123538A52CC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banking.Operation.Notification.Consumer.Infra.Data", "Banking.Operation.Notification.Consumer.Infra.Data\Banking.Operation.Notification.Consumer.Infra.Data.csproj", "{B517BE36-FE92-44DA-B15D-1C8299804612}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banking.Operation.Notification.Consumer.Tests", "Banking.Operation.Notification.Consumer.Tests\Banking.Operation.Notification.Consumer.Tests.csproj", "{0D90AA63-BB85-49D0-84A9-CF67255C06C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Operation.Notification.Consumer.Worker", "Banking.Operation.Notification.Consumer.Worker\Banking.Operation.Notification.Consumer.Worker.csproj", "{048C7ACE-D810-4F7A-8CA2-963C41FF05FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C0E50F9-6336-42DD-86D3-760F1EFBC572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0E50F9-6336-42DD-86D3-760F1EFBC572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0E50F9-6336-42DD-86D3-760F1EFBC572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0E50F9-6336-42DD-86D3-760F1EFBC572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22B4030-C190-46B7-B883-123538A52CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22B4030-C190-46B7-B883-123538A52CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22B4030-C190-46B7-B883-123538A52CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22B4030-C190-46B7-B883-123538A52CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B517BE36-FE92-44DA-B15D-1C8299804612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B517BE36-FE92-44DA-B15D-1C8299804612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B517BE36-FE92-44DA-B15D-1C8299804612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B517BE36-FE92-44DA-B15D-1C8299804612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D90AA63-BB85-49D0-84A9-CF67255C06C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D90AA63-BB85-49D0-84A9-CF67255C06C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D90AA63-BB85-49D0-84A9-CF67255C06C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D90AA63-BB85-49D0-84A9-CF67255C06C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048C7ACE-D810-4F7A-8CA2-963C41FF05FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048C7ACE-D810-4F7A-8CA2-963C41FF05FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048C7ACE-D810-4F7A-8CA2-963C41FF05FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048C7ACE-D810-4F7A-8CA2-963C41FF05FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C0E50F9-6336-42DD-86D3-760F1EFBC572} = {A16AE4DE-9C31-47B1-9EB1-801D2F5C027B}
+		{D22B4030-C190-46B7-B883-123538A52CC9} = {76FF82BC-D3FF-4A3E-AA1A-45E0E5A47056}
+		{B517BE36-FE92-44DA-B15D-1C8299804612} = {76FF82BC-D3FF-4A3E-AA1A-45E0E5A47056}
+		{0D90AA63-BB85-49D0-84A9-CF67255C06C4} = {403C84FB-B3B2-488F-8EAA-422C18AF90AE}
+		{048C7ACE-D810-4F7A-8CA2-963C41FF05FB} = {B6A9FE41-ECB7-4892-AEED-0E95B267D0A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FDA3DB3-9506-4320-ABA7-0664100C2309}
+	EndGlobalSection
+EndGlobal
