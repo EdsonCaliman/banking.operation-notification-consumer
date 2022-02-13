@@ -1,5 +1,8 @@
-﻿namespace Banking.Operation.Notification.Consumer.Domain.Notification.Dtos
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace Banking.Operation.Notification.Consumer.Domain.Notification.Dtos
 {
+    [ExcludeFromCodeCoverage]
     public class Message
     {
         public string Name { get; set; }

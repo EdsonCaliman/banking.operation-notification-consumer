@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  banking.operation.notification.consumer:
+    image: ${DOCKER_REGISTRY-}bankingoperationnotificationconsumer
+    build:
+      context: .
+      dockerfile: Banking.Operation.Notification.Consumer.Worker/Dockerfile

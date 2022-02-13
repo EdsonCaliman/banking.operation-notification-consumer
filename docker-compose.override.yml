@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  banking.operation.notification.consumer:
+    container_name: notification.consumer
+    environment:
+      - "Environment=Development"
+      - "ConnectionStrings:DefaultConnection=server=mysql;user=root;password=1234;database=banking-operation-client"
+      - "RabbitParameters:HostName=localhost"
+      - "RabbitParameters:UserName=admin"
+      - "RabbitParameters:Password=admin"
+      - "RabbitParameters:Port=5672"
+      - "RabbitParameters:Queue=banking.operation-notification"
+      - "MailParameters:Name=Notifications"
+      - "MailParameters:Email="
+      - "MailParameters:UserName="
+      - "MailParameters:Password="
+      - "MailParameters:Host=smtp.gmail.com"
+      - "MailParameters:Port=587"
+      - "MailParameters:UseSSL=false"
