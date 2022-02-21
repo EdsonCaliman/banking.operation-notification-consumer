@@ -6,3 +6,8 @@ services:
     build:
       context: .
       dockerfile: Banking.Operation.Notification.Consumer.Worker/Dockerfile
+
+networks:
+  default:
+    external: true
+    name: bankingoperation-client-api_backend
