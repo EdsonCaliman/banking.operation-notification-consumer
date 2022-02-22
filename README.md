@@ -2,8 +2,8 @@
 
 Banking Operation Solution - Notification Consumer
 
-[![.NET](https://github.com/EdsonCaliman/banking.operation-notification-consumer/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/EdsonCaliman/banking.operation-client-api/actions/workflows/dotnet.yml)
-[![Coverage Status](https://coveralls.io/repos/github/EdsonCaliman/banking.operation-notification-consumer/badge.svg?branch=main)](https://coveralls.io/github/EdsonCaliman/banking.operation-client-api?branch=main)
+[![.NET](https://github.com/EdsonCaliman/banking.operation-notification-consumer/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/EdsonCaliman/banking.operation-notification-consumer/actions/workflows/dotnet.yml)
+[![Coverage Status](https://coveralls.io/repos/github/EdsonCaliman/banking.operation-notification-consumer/badge.svg?branch=main)](https://coveralls.io/github/EdsonCaliman/banking.operation-notification-consumer?branch=main)
 
 This project is a part of a Banking Operation solution, with DDD and microservices architecture, using .Net Core.
 
